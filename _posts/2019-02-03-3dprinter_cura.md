@@ -2,7 +2,7 @@
 layout: post
 title: "3D printer, cura 설정 정보 "
 tags: [3dprinter,cura]
-published : false
+published : true
 ---
 
 cura 유용한 설정값 모음
