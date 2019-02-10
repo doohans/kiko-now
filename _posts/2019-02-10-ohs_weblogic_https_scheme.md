@@ -7,7 +7,7 @@ published : true
 
 ohs & weblogic 구성 시 ohs만 ssl 설치를 하게 되면 weblogic 단에서 request.getScheme() 시에 https가 아닌 http로 반환하는 현상이 있다. was 상에서는 ssl 설정을 하지 않았기에 정상일수도 있겠지만 개발하는 개발자와의 환경도 불일치하고 운영 서비스를 https로 하게되어 브라우저에서 https로 유입이 되면 의례 java code에서는 request.getScheme()시에 https라고 예상하게 된다.
 
-
+![image](https://user-images.githubusercontent.com/19382541/52530648-dfad8980-2d4b-11e9-806e-decd25f51c66.png){: .center-image}
 
 
 # web server 헤더 설정
@@ -17,6 +17,7 @@ ohs & weblogic 구성 시 ohs만 ssl 설치를 하게 되면 weblogic 단에서 
 # was 설정
 
 ohs에서 설정한 WLProxySSL을 weblogic에서 처리하기 위해 플러그인 활성화를 해야 한다. 도메인명->configuration탭->Web Applications탭 으로 이동 후 Weblogic Plugin Enabled 를 체크 한다. weblogic plugin의 자세한 설명은 [여기](http://www.ateam-oracle.com/wls-plugin-enabled/)를 참고한다.
+
 
 
 
