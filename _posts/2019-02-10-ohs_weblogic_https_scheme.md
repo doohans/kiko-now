@@ -12,7 +12,7 @@ ohs & weblogic 구성 시 ohs만 ssl 설치를 하게 되면 weblogic 단에서 
 
 # web server 헤더 설정
 
-아파치에서는 [X-Forwarded-Proto 값을 헤더에 설정하여 처리하는 방법](https://stackoverflow.com/questions/25911469/request-getscheme-is-returning-http-instead-of-returning-https-in-java)이 쉽게 검색이 된다. ohs & weblogic 조합에서는 이 헤더가 동작하지 않는다. 별도 오라클에서 설정한 방법으로 ssl을 전달해줘야 한다. ohs에서는 mod_wl 파일을 수정하여 [WLProxySSL On](https://docs.oracle.com/cd/E13222_01/wls/docs81/plugins/plugin_params.html) 으로 설정한다.
+아파치에서는 [X-Forwarded-Proto 값을 헤더에 설정하여 처리하는 방법](https://stackoverflow.com/questions/25911469/request-getscheme-is-returning-http-instead-of-returning-https-in-java)이 쉽게 검색이 된다. ohs & weblogic 조합에서는 이 헤더가 동작하지 않는다. 별도 오라클에서 설정한 방법으로 ssl을 전달해줘야 한다. ohs에서는 mod_wl 파일을 수정하여 [WLProxySSLPassThrough On](https://docs.oracle.com/cd/E13222_01/wls/docs81/plugins/plugin_params.html) 으로 설정한다.
 
 # was 설정
 
