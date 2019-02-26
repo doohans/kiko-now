@@ -2,6 +2,7 @@
 layout: post
 title: "OHS & Weblogic https scheme 문제"
 tags: [https,ssl,ohs,weblogic]
+comments: true
 published : true
 ---
 
