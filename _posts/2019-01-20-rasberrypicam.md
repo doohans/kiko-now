@@ -6,6 +6,7 @@ tags:
   - Motion
   - PI
   - PICAM
+comments: true  
 ---
 
 성능이 후달리는 구형 라즈베리파이를 이용한 스트리밍 서버 구현하기를 해본다.
