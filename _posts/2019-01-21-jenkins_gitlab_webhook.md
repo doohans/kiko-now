@@ -5,6 +5,7 @@ tags:
   - Gitlab
   - Webhook
   - Jenkins 
+comments: true  
 ---
 
 gitlab webhook 시 브랜치 필터링!
