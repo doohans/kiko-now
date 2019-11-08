@@ -3,7 +3,7 @@ layout: post
 title: "Asus c302 Chromebook"
 tags: [chromebook,c302]
 comments: true
-published : fase
+published : true
 ---
 
 최근에 갑자기 크롬북이 가지고 싶었다. 최근 수년 동안 컴퓨터로 하는 대부분의 활동이 인터넷상에서 하고 있다. 컴퓨터의 로컬 자원을 거의 사용하지 않는 것이다. 컴퓨터가 좋을 필요도 없으며 로컬스토리지는 50기가도 채 사용하지 않고 있다. 회사 업무는 citrix만 사용하고 있고, 3d 프린터 모델링은 tinkercad를 사용하고, 영상은 youtube를 보고... 이런 패턴에 크롬북이 너무나도 잘 맞는것 같았다. 
