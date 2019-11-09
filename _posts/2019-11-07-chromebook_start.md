@@ -70,3 +70,10 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=918312
   * ebay 중고물품이라 충전기 없이 본품만 구매했다. 집에 있는 5v 2a 충전기를 물려 보았다. 다행히 중간 밝기의 화면으로 일반적인 웹브라우징에서는 배터리가 깍이지는 않는다. 사용하면서 충전은 아주아주 느리다. 한시간에 5프로? 정도?. 
   * 밤사이 5v 2a 충전기를 물려놓으니 아침에는 만충되었다. 그리고 1주일 되는 현재까지 매일 1~2시간 정도 사용했으나 배터리는 빠방하다. 내 사용 패턴으론 1주일에 한번만 충전해도 충분할것 같다.
   * 속터지는 충전속도와 저속 충전 알림이 계속떠서 샤오미 pd 충전기는 하나 구매함.
+  * pd충전이 정상적으로 동작하는지는 chrome://system/ 에 접속하면 알 수 있다. 아래 스크린샷 참조.
+
+[샤오미 45w PD 충전]
+![Screenshot 2019-11-09 at 7 43 06 PM](https://user-images.githubusercontent.com/19382541/68528544-a1bfaf00-0337-11ea-865b-50342efc7a4b.png)
+
+[5v 2A 충전]
+![Screenshot 2019-11-09 at 7 44 32 PM](https://user-images.githubusercontent.com/19382541/68528543-a1bfaf00-0337-11ea-9e3d-2cbb49fad041.png)
